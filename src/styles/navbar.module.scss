@@ -1,0 +1,24 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 0px !important;
+    height: 50px;
+    background: blueviolet;
+    justify-content: flex-end;
+    padding: 0px 30px;
+
+    li {
+        line-height: 50px;
+        margin: 0px 10px;
+        a {
+            font-family: Archivo Narrow;
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+        }
+        :hover {
+            color: gray;
+        }
+    }
+}
