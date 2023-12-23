@@ -1,0 +1,63 @@
+.container {
+    padding: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #d9d9d9;
+    height: calc(100vh - 110px);
+}
+
+.contact {
+    padding: 30px;
+    // height: 500px;
+    width: 600px;
+    border: 1px solid #002071;
+    border-radius: 5px;
+    form {
+        width: 100%;
+        height: 100%;
+
+        .item {
+            display: flex;
+            flex-direction: column;
+    
+            label {
+                color: #000;
+                text-align: left;
+                font-family: Archivo Narrow;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                margin-bottom: 15px;
+            }
+            
+            input {
+                height: 40px;
+                width: 100%;
+                border: none;
+                box-shadow: none;
+                border-radius: 5px;
+            }
+
+            
+        }
+
+        button {
+            width: 100%;
+            height: 40px;
+            box-shadow: none;
+            border: none;
+            border-radius: 5px;
+            background: linear-gradient(110deg, #082C95 36.75%, #7E90C5 87.37%);
+
+            color: #FFF;
+            font-family: Archivo Narrow;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            margin-top: 60px;
+        }
+    }
+}
