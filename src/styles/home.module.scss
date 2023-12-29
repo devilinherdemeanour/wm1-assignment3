@@ -1,0 +1,44 @@
+.container {
+    padding: 120px;
+    display: flex;
+    flex-direction: column;
+    background-color: #d9d9d9;
+    height: calc(100vh - 110px);
+}
+
+.welcomeHeader {
+    font-family: Archivo Narrow;
+    text-align: center;
+    font-size: 64px;
+}
+
+.welcomeText {
+    font-family: Archivo Narrow;
+    text-align: center;
+    font-size: 28px;
+    margin: 0px;
+}
+
+.projectsTitle {
+    font-family: Archivo Narrow;
+    font-size: 42px;
+    margin-bottom: 0px;
+}
+
+
+.projectsList {
+    background: #435ead;
+    padding: 30px;
+    border-radius: 4px;
+    padding-left: 60px;
+
+    li {
+        font-family: Archivo Narrow;
+        color: white;
+        font-size: 24px;
+
+        a {
+            color: white;
+        }
+    }
+}
