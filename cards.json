@@ -1,19 +1,6 @@
 {
   "cards": [
     {
-      "id": 1,
-      "front": {
-        "content": "What is React?",
-        "type": "question"
-      },
-      "back": {
-        "content": "React is a JavaScript library for building user interfaces.",
-        "type": "answer"
-      },
-      "updateDate": "2023-12-28T10:30:00.000Z",
-      "status": "Learned"
-    },
-    {
       "front": {
         "content": "https://i.imgur.com/BllXVZJ.jpeg",
         "type": "image"
@@ -25,20 +12,15 @@
       "updateDate": "2023-12-27T12:59:42.610Z",
       "status": "Learned",
       "id": 2
-    },
-    {
-      "front": {
-        "content": "https://kappa.lol/OPTgS",
-        "type": "image"
-      },
-      "back": {
-        "content": "1234",
-        "type": "text"
-      },
-      "updateDate": "2023-12-27T13:09:49.105Z",
-      "status": "Learned",
-      "id": 3
     }
   ],
-  "contactPage": []
+  "messages": [
+    {
+      "name": "ibrahim",
+      "email": "ajskhgdh@dahkjs.com",
+      "subject": "jdkhakjdhsalj",
+      "message": "daksjhdjkas",
+      "id": 1
+    }
+  ]
 }
